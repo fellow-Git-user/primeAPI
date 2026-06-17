@@ -1,6 +1,8 @@
-@primeAPI_HostAddress = http://localhost:5053
+@rootURL = http://localhost:5053
 
-GET {{primeAPI_HostAddress}}/weatherforecast/
+GET {{rootURL}}/weatherforecast/
 Accept: application/json
 
-###
+### 
+GET {{rootURL}}/api/books
+Accept: application/json
